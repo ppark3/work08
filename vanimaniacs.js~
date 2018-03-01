@@ -1,0 +1,10 @@
+var svg = document.getElementById("svg");
+var circle = document.getElementById("circle");
+var dvd = docuemnt.getElementById("dvd");
+var stop = document.getElementById("stop");
+var clear = document.getElementById("clear");
+
+circle.addEventListener("click", animate);
+dvd.addEventListener("click", bounce);
+clear.addEventListener("click", erase);
+stop.addEventListener("click", pause);
